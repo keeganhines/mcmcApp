@@ -5,7 +5,7 @@ R Shiny app for teaching about Metropolis Hastings
 
 ### Introduction
 
-This app is a teaching tool for explaining Markov chain Monte Carlo sampling, and Metropolis random walk, in particular. The app is hosted at [rstudio] (www.spark.rstudio.com/khines/mcmc). 
+This app is a teaching tool for explaining Markov chain Monte Carlo sampling, and Metropolis random walk, in particular. The app is hosted at [rstudio] (http://spark.rstudio.com/khines/mcmc). 
 
 ### Data
 
