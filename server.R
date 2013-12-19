@@ -30,7 +30,7 @@ shinyServer(function(input,output){
 		
 		#plot(data,ylab='Signal',xlab='Time',type='l')
 		out<-mcmc(data,input$iterations,init_param=c(input$theta,.05),trans=c(input$theta_trans,input$sigma_trans,.01))
-		browser()
+		
 		p2<-ggplot(data=out,aes(x=theta)) + geom_histogram(binwidth=ceiling((range(out$theta)[2] - range(out$theta)[1])/25),fill='#2B8CBE')
 		
 		
