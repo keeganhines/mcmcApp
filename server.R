@@ -1,5 +1,6 @@
 library(shiny)
 library(ggplot2)
+library(grid)
 source('./helperFunctions.R')
 
 shinyServer(function(input,output){
