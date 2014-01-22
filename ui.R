@@ -3,7 +3,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
 
 	
-
+	headerPanel(""),
 	sidebarPanel(
 		helpText('Data Parameters:'),
 		sliderInput('theta','Theta',min=50,max=1000,value=450),
