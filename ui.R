@@ -2,7 +2,7 @@ library(shiny)
 
 shinyUI(pageWithSidebar(
 
-	headerPanel("Markov chain Monte Carlo"),
+	
 
 	sidebarPanel(
 		helpText('Data Parameters:'),
