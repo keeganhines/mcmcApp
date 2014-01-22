@@ -6,7 +6,7 @@ shinyUI(pageWithSidebar(
 	headerPanel("MCMC"),
 	sidebarPanel(
 		helpText('Data Parameters:'),
-		sliderInput('theta','Theta',min=50,max=1000,value=450),
+		sliderInput('theta','Theta',min=50,max=10000,value=450),
 		sliderInput('sigma','Noise Level ',min=.01,max=.25,value=.03),
 		
 		
